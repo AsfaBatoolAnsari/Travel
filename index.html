@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORLD TRAVEL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/81b1288337.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-----NAVIGATION BAR--------->
+
+    <div id="search-btn" class="nav-bar ">
+        <a href="#" class="plane"><b><i class="fa-solid fa-plane-up" ></i> WORLD TRAVEL</b></a>
+        <a href="#" class="search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <!--<input class="search-bar" type="text" placeholder="search...">---->
+        
+    </div>
+
+    <!--------HEADER-------->
+
+    <header class="header" style="max-width:1500px;">
+        <img class="back-img" src="images/back.jfif">
+        <div class="middle" style="width:65%">
+            <div class="border">
+                <button class="btn btn-yellow tablink Flight" onclick="openLink('Flight')"><i class="fa fa-plane w3-margin-right"></i>Flight</button>
+                <button class="btn  tablink Hotel" onclick="openLink('Hotel')"><i class="fa fa-bed w3-margin-right" ></i>Hotel</button>
+                <button class="btn  tablink Car" onclick="openLink('Car')"><i class="fa fa-car w3-margin-right" ></i>Rental</button>
+            </div>
+
+            <!-----TABS----->
+
+            <div id="Flight" class="conainer-tab conainer-block">
+                <h3>Travel the world with us</h3>
+                <div class="form" style="margin:24px -22px; box-sizing: inherit;">
+                    <div class="half">
+                        <label>From</label>
+                        <input class="from-half" type="text" placeholder="Departing from">
+                    </div>
+                    <div class="half">
+                        <label>To</label>
+                        <input class="from-half" type="text" placeholder="Arriving at">
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="#"> <button class="button-2">Search and find dates</button></a>
+                </div>
+            </div>
+
+            <div id="Hotel" class="conainer-tab">
+                <h3>Find the best hotels</h3>
+                <p class="hotel-para">Book a hotel with us and get the best fares and promotions.</p>
+                <p class="hotel-para-2">We know hotels - we know comfort.</p>
+                <a href="#"><button class="button-3">Search Hotels</button></a>
+            </div>
+
+            <div id="Car" class="conainer-tab">
+                <h3>Best car rental in the world!</h3>
+                <p><span class="discount">DISCOUNT!</span>Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
+                <input class="pick-up" type="text" placeholder="Pick-up point">
+                <a href="#"><button class="button-4">Search Availability</button></a>
+            </div>
+        </div>
+    </header>
+
+    <!----------PAGE CONTENT-------------->
+
+    <div class="page" style="max-width: 1100px;">
+
+        <!------GOOD OFFER-------->
+
+        <div class="offer">
+            <h3 class="good-offer"><b>Good Offers Right Now</b></h3>
+            <h6>Up to <strong>50%</strong> discount.</h6>
+        </div>
+
+        <div class="small-container">
+            <div class="display">
+                <div class="images">
+                    <img class="img-tokyo" src="images/tokyo.jpg" alt="Tokyo" style="width:99%;">
+                    <span class="tokyo">Tokyo</span>
+                </div>
+            </div>
+
+            <div class="small-container-2">
+                <div class="display-2" style="margin:0 -16px;">
+                    <div class="img-all">
+                        <img class="img-tokyo" src="images/berlin.jpg" alt="Berlin" style="width: 100%;">
+                        <span class="tokyo">Berlin</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="small-container-2">
+                <div class="display-2" style="margin:0 -16px;">
+                    <div class="img-all">
+                        <img class="img-tokyo" src="images/newyork.jpg" alt="New York" style="width: 100%;">
+                        <span class="tokyo">New York</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="small-container-2">
+                <div class="display-2" style="margin:0 -16px;">
+                    <div class="img-all">
+                        <img class="img-tokyo" src="images/riodejanerio.jpg" alt="Rio De Janerio" style="width: 100%;">
+                        <span class="tokyo">Rio De Janerio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-----------EXPLORE NATURE---------->
+
+        <div class="nature-container">
+            <h3 class="nature"><b>Explore Nature</b></h3>
+            <p class="nature-2">Travel with us and see nature at its finest.</p>
+        </div>
+
+
+        <div class="all-css">
+
+            <div class="nature-images">
+                <img class="n-img" src="images/norway.jpg" alt="West Coast Norway">
+                <div class="text-align">
+                    <h3 class="n-heading">West Coast Norway</h3>
+                    <p class="opacity">Roundtrip from $80</p>
+                    <p class="n-para">In this article, I’d like to reacquaint you with humble</p>
+                    <button class="n-btn">Buy Tickets</button>
+                </div>
+            </div>
+
+            <div class="nature-images">
+                <img class="n-img" src="images/sawatvalley.jpg" alt="Sawat Valley">
+                <div class="text-align">
+                    <h3 class="n-heading">Sawat Valley</h3>
+                    <p class="opacity">One-way from $50</p>
+                    <p class="n-para">In this article, I’d like to reacquaint you with humble</p>
+                    <button class="n-btn">Buy Tickets</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!------CONTACT------->
+
+        <div class="contact-container">
+            <h2 class="c-heading">Contact :</h2>
+            <p class="c-para">Let us book your next trip!</p>
+            <i class="fa fa-map-marker" style="width:30px"></i> Karachi, US<br>
+            <i class="fa fa-phone" style="width:30px"></i> Phone: +92-345-567-643<br>
+            <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@gmail.com<br>
+
+            <form>
+                <p><input class="from-text" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="from-text" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="from-text" type="text" placeholder="Message" required name="Message"></p>
+                <p><button class="btn-form" type="submit">SEND MESSAGE</button></p>
+              </form>
+        </div>
+
+        <!----------SUBSCRIBTION------------>
+
+        <div class="sub-container">
+            <h2 class="sub-heading">Get the best offer first!</h2>
+            <P class="sub-para">Join our newsletter.</P>
+            <label class="sub-mail">E-mail</label>
+            <input class="sub-text" type="text" placeholder="Your Email address">
+            <button type="submit" class="sub-btn">Subscribe</button>
+        </div>
+    </div>
+
+    <!----------FOOTER----------->
+
+    <footer class="footer-container">
+        <h5 class="f-heading">Find Us On</h5>
+        <div class="f-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p class="f-para">Powered by<a href="index.html"> Asfa Batool</a></p>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,490 @@
+/*Style.css*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1 ;
+    color: #000 ;
+}
+body,h1,h2,h3,h4,h5,h6 {
+
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+
+/*----NAVIGATION BAR-------*/
+
+.nav-bar{
+
+    display: flex;
+    flex-wrap: wrap ;
+    background-color: rgb(236, 230, 230);
+
+}
+.plane{
+   overflow: hidden;
+   font-size: 25px;
+   color: black;
+   padding: 1rem;
+   text-decoration: none;
+   margin-top: -10px;
+   background: rgb(248, 248, 41);
+}
+
+
+.search{
+
+   margin-left: 80rem;
+   overflow: hidden;
+   font-size: 31px;
+   color: gray;
+   padding-top: 46px;
+   padding-right: 12px;
+   padding-left: 26px;
+   margin-top: -6rem;
+
+}
+
+/*-------HEADER---------*/
+
+.header{
+
+    margin: auto;
+    padding: auto;
+}
+.back-img{
+
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+
+}
+.middle{
+
+    position: absolute;
+    top: 61%;
+    width: auto;
+    left: 15%;
+
+}
+.border{
+
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    background-color: black;
+}
+.btn{
+
+    padding: 8px 16px;
+    float: left;
+    width: 7rem;
+    height: 40px;
+    border: none;
+    display: block;
+    outline: 0;
+}
+.btn-yellow{
+
+    padding: 8px 16px;
+    float: left;
+    width: 7rem;
+    height: 40px;
+    border: none;
+    display: block;
+    outline: 0;
+    background-color: rgb(248, 248, 41);
+
+}
+/*------BUTTON HOVER------*/
+
+.btn-yellow:hover{
+
+    color: #000;
+    background-color: rgb(236, 230, 230);
+    cursor: pointer;
+}
+.btn:hover
+{
+
+    cursor: pointer;
+    background: rgb(248, 248, 41);
+    color: black;
+
+}
+
+/*------TABS------*/
+
+.conainer-tab{
+    display: none;
+    color: #000;
+    background-color: rgb(236, 230, 230);
+    padding-top: 11rem;
+    padding-bottom: 5rem;
+    box-sizing: inherit;
+}
+.conainer-block { 
+    display: block !important;
+}
+h3{
+
+    font-size: 28px;
+    margin-top: -9rem;
+    padding: 0 19px;
+
+}
+.half{
+
+    padding: 0 3rem;
+    width: 39%;
+    float: left;
+}
+.from-half{
+
+    border: 1px solid rgb(236, 230, 230);
+    padding: 8px;
+    display: block;
+    width: 100%;
+    overflow: visible;
+}
+.button-2{
+
+    color: black;
+    width: 28%;
+    margin: 14px 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 17px;
+    background-color: rgb(248, 248, 41);
+    border: none;
+    cursor: pointer;
+}
+/*--------PAGE CONTENT--------------*/
+
+.page{
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*---------GOOD OFFER------------*/
+
+.offer{
+
+    margin-top: 12rem;
+    padding: 0 3rem;
+
+}
+.good-offer{
+
+    font-size: 36px;
+
+}
+h6{
+
+    font-size: 16px;
+    margin-left: 23px;
+    padding-top: 1rem;
+}
+.small-container{
+
+   color: rgb(236, 230, 230);
+   font-size: 18px;
+   padding: 0 8px;
+   box-sizing: inherit;
+   text-decoration: none;
+
+}
+.display{
+    
+    margin-bottom: 16px;
+    width: 49%;
+    float: left;
+
+}
+.images{
+
+    position: relative;
+    
+}
+.img-tokyo{
+
+    vertical-align: middle;
+    border-style: none;
+}
+.tokyo{
+
+    padding: 8px 16px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.small-container-2{
+
+    padding: 0 8px;
+}
+.display-2{
+
+   padding: 66px 21px;
+    float: left;
+    width: 16%;
+
+}
+.img-all{
+
+    position: relative;
+
+}
+
+/*----------EXPLORE NATURE----------*/
+
+.nature-container{
+
+    padding: 0 11rem;
+    margin:16px -6rem ;
+}
+.nature{
+
+    margin-top: 28rem;
+    margin-left: -6rem;
+
+}
+.nature-2{
+
+    margin-top: 1rem;
+    margin-left: -74px;
+}
+.all-css{
+
+    display: flex;
+}
+.nature-images{
+
+    margin-left: -1rem;
+}
+.n-img{
+
+    padding: 1rem 1rem;
+    background-color: rgb(236, 230, 230);
+}
+.text-align{
+
+    background-color: rgb(236, 230, 230);
+}
+.n-heading{
+
+    padding: 0 1rem;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+}
+.opacity{
+
+    opacity: 0.60;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+
+}
+.n-para{
+
+    padding: 0 1rem;
+    padding-bottom: 2rem;
+}
+/*-------BUTTON___3------*/
+
+.n-btn{
+
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: #000;
+    border: none;
+    font-size: 1rem;
+    background-color: rgb(236, 230, 230);
+}
+.n-btn:hover{
+
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/*------CONTACT-----*/
+
+.contact-container{
+
+    padding: 3rem ;
+    margin-top: 7rem;
+    padding-left: 3rem;
+
+}
+.c-heading{
+
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    
+
+}
+.c-para{
+
+    padding-bottom: 1rem;
+    
+}
+.fa-map-marker{
+
+    padding-bottom: 1rem;
+}
+.fa-phone{
+
+    padding-bottom: 1rem;
+}
+.fa-envelope{
+
+    padding-bottom: 1rem;
+}
+.from-text{
+
+    padding: 1rem 1rem;
+    margin: 8px 0;
+    width: 97%;
+    border: none;
+}
+.btn-form{
+
+    padding: 1rem 1rem;
+    margin: 16px 0;
+    color: #000;
+    background-color: rgb(236, 230, 230);
+    border: none;
+
+}
+.btn-form:hover{
+
+    background-color: rgb(248, 248, 41);
+    cursor: pointer;
+}
+
+/*---------SUBSCRPTION----------*/
+
+.sub-container{
+
+    padding: 2rem 1rem;
+    background-color: #000;
+    color: #f1f1f1;
+    height: 10rem;
+    padding-bottom: 9rem;
+
+}
+.sub-heading{
+
+    padding: 1rem 0;
+    font-size: 2rem;
+
+}
+.sub-para{
+
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+
+}
+.sub-mail{
+
+    padding: 1rem 0;
+
+}
+.sub-text{
+    
+    width: 93%;
+    padding: 1rem;
+    border: none;
+    margin-top: 5px;
+
+}
+.sub-btn{
+
+    padding: 12px;
+    margin-top: 1rem;
+    width: 14%;
+    background-color: rgb(248, 248, 41);
+
+}
+.sub-btn:hover{
+
+    background-color: rgb(236, 230, 230);
+    cursor: pointer;
+}
+
+/*-------FOOTER--------*/
+
+
+.f-heading{
+
+    font-size: 1rem;
+    text-align: center;
+    padding: 4rem 5rem;
+    padding-bottom: 2rem;
+    color: rgb(150, 148, 148);
+
+}
+.f-icons{
+
+    text-align: center;
+    font-size: 19px;
+    color: rgb(150, 148, 148);
+
+}
+.f-para{
+
+    color: rgb(150, 148, 148);
+    text-align: center;
+    padding-top: 3rem;
+
+}
+a{
+
+    color: rgb(150, 148, 148);
+
+}
+a:hover{
+
+    color: rgb(248, 248, 41);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
